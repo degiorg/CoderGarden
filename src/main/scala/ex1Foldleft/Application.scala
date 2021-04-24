@@ -1,8 +1,5 @@
 package ex1Foldleft
 
-import scala.::
-
-
 object exercise1  {
   def main(args: Array[String]) {
     val stringToList = args.toList
