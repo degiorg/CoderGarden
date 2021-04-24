@@ -3,7 +3,7 @@ package ex1Foldleft
 object exercise1  {
   def main(args: Array[String]) {
     val stringToList = args.toList
-
+// test
     def print = {
       val res = stringToList.foldLeft((0, List[String]()) , ( 100 , List[String]())) {
         case ((max ,min), b) =>
